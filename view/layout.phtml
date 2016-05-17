@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>simple slider</title>
+    <meta charset="UTF-8">
+    <script src="/view/js/jquery.min.js"></script>
+    <script src="/view/js/simple_slider.js"></script>
+    <link rel="stylesheet" href="view/css/simple_slider.css">
+</head>
+
+<ul id="simpleSlider">
+    <?php
+        renderImgLi(getImage(VIEW_DIR.'img'));
+    ?>
+</ul>
+<div class="button_block">
+    <button id="prevImg">Prev</button>
+    <button id="nextImg">Next</button>
+</div>
+</html>

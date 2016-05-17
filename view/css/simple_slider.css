@@ -1,0 +1,16 @@
+#simpleSlider{
+    list-style: none;
+    text-align: center;
+}
+#simpleSlider li{
+    display: none;
+}
+#simpleSlider li.Active{
+    display: block !important;
+}
+.button_block{
+     text-align: center;
+}
+.button_block button:hover{
+    cursor: pointer;
+}
